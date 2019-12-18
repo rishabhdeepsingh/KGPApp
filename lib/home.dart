@@ -12,7 +12,7 @@ class Home extends StatelessWidget {
         title: new Text("KGPApp"),
         elevation: .8,
       ),
-      
+
       drawer: Drawer(
         child: ListView(
           padding: EdgeInsets.zero,
@@ -47,6 +47,6 @@ class Home extends StatelessWidget {
           ],
         ),
       ),
-    );      
+    );
   }
 }
